@@ -38,3 +38,31 @@ sum1 = lambda num1, num2: num1+num2
 result2 = sum1(4,2)
 
 print(result2)
+
+# the lambda function to multiply two numbers
+
+sum2 = sum(6,4)
+
+multiply = lambda num1, num2: num1*num2
+
+result3 = multiply(66,974)
+
+print(result3)
+
+number = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
+
+# Write the code to find the remainder of the number when divided by 4
+
+remainders = list(map(lambda num: num % 4, number))
+
+print(remainders)
+
+def kmh2mps(speed):
+    vehichle = "car"
+    global new_speed
+    new_speed = speed*5/18
+    return new_speed
+
+result5 = kmh2mps(66)
+
+print(result5)
